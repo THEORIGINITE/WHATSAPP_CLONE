@@ -1,0 +1,24 @@
+ <Fab onClick={createChat} title="add new room" size="medium"><PersonAddIcon/></Fab>
+            <p>Add New Room</p>
+
+
+            const emailval=document.getElementById("name").value;
+    const roomnameval=document.getElementById("RoomName").value;
+    const imgsrcval=document.getElementById("imgsrc").value;
+    setOpen(false);
+    setEmaisl(emailval);
+    setImgsrc( roomnameval);
+    setImgsrc(imgsrcval);
+    setRoomName(roomnameval)
+
+
+
+
+    const changedFile = (e)=>{
+   let selected = e.target.files[0];
+   console.log(selected);
+  }
+
+
+  
+         

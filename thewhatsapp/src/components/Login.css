@@ -1,0 +1,28 @@
+.login{
+    display: flex;
+    background-color: #f6f6f6;
+    justify-content: center;
+    align-items: center;
+}
+.login_container{
+    padding: 20px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0 1px 2px 0 rgb(60 64 67 / 30%), 0 1px 3px 1px rgb(60 64 67 / 15%);
+}
+.login_container > Button{
+ color:#005f43 !important;
+}
+.login_container > h1{
+    color:#005f43 !important;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin: 10px;
+   }
+.login_container > img{
+    height: 150px;
+    width: 150px;
+    margin: 40px;
+}   
